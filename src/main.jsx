@@ -6,7 +6,8 @@ import './index.css'
 // import Student from './Components/Student.jsx'
 // import Counter from './Components/Counter.jsx'
 // import NameIn from './Components/NameInput.jsx'
-import CounterApp from './Components/CounterApp.jsx'
+// import CounterApp from './Components/CounterApp.jsx'
+import Subscription from './Components/Subscription.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,7 +16,8 @@ createRoot(document.getElementById('root')).render(
     
     {/* <Counter /> */}
     {/* <NameIn/> */}
-    <CounterApp/>
+    {/* <CounterApp/> */}
+    <Subscription/>
 
     {/* <Student name="Vishesh Sharma" course="React" roll="29" /> */}
   </StrictMode>,
